@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#big_container
+{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    border: 1px solid rgb(21, 0, 255);
+} 
+#Ist_navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bold;
+    cursor: pointer;
+    height: 20px;
+   
+}
+#Ist_navbar div:hover{
+    cursor: pointer;
+    border-bottom: 4px solid rgb(7, 148, 243);
+}
+
+#Ist_navbar a{
+    color: black;
+    text-decoration: none;
+}
+#right_div a{
+    font-size: 14px;
+    cursor: pointer;
+}#right_div{
+    position: relative;
+    display: inline-block;
+    margin-left: 120px;
+}#drop_down{
+    margin-top: 5px;
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 148px;
+    z-index: 1;
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    line-height: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#drop_down a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 7px 30px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #111;
+    white-space: nowrap;
+
+}
+#drop_down a:hover{
+   background-color: rgb(255, 255, 255); 
+
+}
+#right_div:hover #drop_down{
+    display: block;
+}
+#right_div:hover a{
+background-color: rgb(255, 255, 255);
+}
+
+#right_div  .fa-regular{
+    height: 100%;
+    width: 15px;
+    text-align: center;
+    transition: all 0.3s ease;  
+    background-color: rgb(11, 247, 157);
+}
+/* #right_div:hover  .html_css_arrow{
+    transform:rotate(180deg);
+} */
+
+
+
+
+
+#sec_navbar
+{
+display: flex;
+justify-content: space-evenly;
+/* border:  2px solid rgb(255, 0, 140); */
+margin-top: 30px;
+}
+#temp{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    /* border:  1px solid rgb(0, 0, 0); */
+    width: 20%;
+    padding: 0 20px;
+    margin: auto;
+}
+#icon_img{
+    /* border:  1px solid red; */
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#icon_social{
+    margin: auto;
+    display: flex;
+    /* border:  1px solid rgb(38, 0, 255); */
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0 20px;
+}
+#icons_div{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin: auto;
+    /* border:  1px solid rgb(38, 0, 255); *//
+}
+#search_icons button{
+    margin: auto;
+    background: transparent;
+    border: 0px;
+    font-size: 20px;
+    /* border:  1px solid rgb(38, 0, 255); */
+}
+#login_button button{
+    margin: auto;
+    background-color: #4c4084;;
+    
+    padding: 8px;
+    border: 0px;
+    font-size: 15px;
+    /* border:  1px solid rgb(38, 0, 255); */
+}
+#login_button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#search_btn1{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+
+
+#drop_search_div {
+    display: none;
+    position:absolute;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    min-width: 650px;
+    z-index: 1;
+    /* border: 1px solid rgb(246, 14, 14); */
+    line-height: 35px;
+    box-shadow: rgba(134, 120, 120, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding: 20px; 
+    margin-top: 2px;
+
+}
+
+#drop_search_div #text_input{
+width: 60%;
+padding: 10px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid rgb(194, 194, 194);
+outline-style: none;
+
+
+}
+
+#search_btn1:hover #drop_search_div{
+    display: block;
+}
+
+#search_icon :hover #search_btn1{
+background-color: aquamarine;
+}
+#btn2{
+    padding: 10px;
+    width: 100px;
+    background-color: #4c4084;
+    color: white;
+}
+
+/* THIRD NAVBAR CSS */
+
+#third_navbar{
+    border:  1px solid navy;
+    margin-top: 40px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    gap:20px;
+
+   
+  
+}
+#third_navbar div{
+    border:  1px solid rgb(17, 255, 247);
+    margin: auto;
+    
+
+}
+#third_navbar a .fa{
+    /* margin-top: 20px; */
+    /* padding: 0 5px; */
+  
+}
+#third_navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /* padding: 0 10px ; */
+    font-size: 14px;
+}
+
+/* 
+
+
+
+#category a{
+    font-size: 14px;
+    cursor: pointer;
+}#category{
+    position: relative;
+    display: inline-block;
+    margin-left: 120px;
+}#category2{
+    margin-top: 5px;
+    display: none;
+    position:absolute;
+    background-color: white;
+    min-width: 148px;
+    z-index: 1;
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    line-height: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#category2 a{
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 7px 30px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #111;
+    white-space: nowrap;
+
+}
+#category2 a:hover{
+   background-color: rgb(255, 255, 255); 
+
+}
+#category:hover #category2{
+    display: block;
+}
+#category:hover a{
+background-color: rgb(255, 255, 255);
+}
+
+#category  .fa-regular{
+    height: 100%;
+    width: 15px;
+    text-align: center;
+    transition: all 0.3s ease;  
+    background-color: rgb(11, 247, 157);
+}
+#category:hover  .html_css_arrow{
+    transform:rotate(180deg);
+} */
+
+
+
+
+
+
+
+
