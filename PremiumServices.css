@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header */
+.header{
+    display: flex;
+    gap: 20px;
+    color: rgb(140,140,140);
+    margin-bottom: 40px;
+}
+.header>h2>a{
+    text-decoration: none;
+    color: rgb(140,140,140);
+
+}
+/* header2 */
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+/* .header2>div:first-child{
+    border: 1px solid black;
+} */
+.header2>div:first-child>h1{
+    font-family: poppins-semibold-webfont;
+    color: #1D1934;
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 45px;
+
+}
+.header2>div:first-child>h2{
+    font-family: poppins-regular-webfont;
+    color: #8c8c8c;
+    font-size: 1.286em;
+    line-height: 48px;
+    font-size: 25px;    
+
+}
+#call{
+    background-color: rgb(96,72,157);
+    color: white;
+    width:250px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+
+}
+/* Description  */
+.description{
+    font-size: 29px;
+    line-height: 32px;
+    color: #101010;
+    margin-top: 20px;
+    font-weight:200;
+}
+/* grid section */
+.grid{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding: 30px;
+
+}
+.grid>div{
+    /* border: 1px solid black; */
+    border: 1px solid rgb(239,237,246);
+    border-width: 4px;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+.grid>div>div:first-child{
+    /* border: 1px solid red; */
+    width: 50%;
+    background-color:rgb(239,237,246);
+}
+.grid>div>div:last-child{
+    /* border: 1px solid red; */
+    width: 45%;
+}
+.div>div:first-child>img{
+    width: 80%;
+    height: 80%;
+    padding-top: 30px;
+    padding-bottom: -30px;
+}
+.div>div:last-child>h2{
+    line-height: 60px;
+    color: #5e6162;
+}
+.div>div:last-child>p{
+    font-size: 23px;
+    color: #8c8c8c;
+    line-height: 30px;
+
+}
+.benifits{
+    background-color: rgb(96,72,157);
+    
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.benifits>a{
+    color: white;
+    text-decoration: none;
+}
+.div>div:last-child>p:last-child{
+    color: rgb(96,72,182);
+}
+.div>div:last-child>p:last-child>a{
+    text-decoration: none;
+}
+/* contact us section */
+.contactUs{
+    /* border: 1px solid red; */
+    /* height: 200px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239,237,246);
+    padding-bottom: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-right: 38px;
+}
+.contactUs>div{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 48%;
+}
+#contactDetails{
+    /* border: 1px solid red; */
+    height: 470px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+#contactDetails>div:first-child{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#contactDetails>div:nth-child(2){
+    text-align: center;
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-bottom: 20px;
+}
+#contactDetails>div:nth-child(2)>img{
+    width: 100%;
+    height: 100%;
+}
+#contactDetails>div:last-child{
+    text-align: center;
+}
+.form{
+    /* gap: 35px; */
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 15px;
+    padding-top: 30px;
+}
+input{
+    height: 45px;
+    width: 92%;
+    font-size: 20px;
+    padding: 0 20px;
+    background-color: white;
+}
+select{
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+}
+.form>button{
+    height: 55px;
+    width: 40%;
+    background-color: rgb(96,72,157);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.form>button>a{
+    text-decoration: none;
+    color: white;
+}
+#select>input{
+    width: 80%;
+}
+/* education section */
+
+.education{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 95%;
+    margin: auto;
+    gap: 25px;
+    margin-top: 50px;
+}
+.education>div:first-child{
+    /* border: 1px solid teal; */
+    padding: 45px;
+    background-color: rgb(245,248,252);
+}
+.info>div:first-child{
+    width: 60%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info>div:first-child>p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.info>div:first-child>img{
+    width: 80%;
+}
+.courses{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin-top: 20px;
+
+}
+.courses>div{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+}
+.courses>div>img{
+    width: 8%;
+    height: 30px;
+}
+.courses>div:last-child{
+    justify-content: flex-end;
+}
+.courses>div>h2>a{
+    text-decoration: none;
+}
+
+/* bottom section */
+.bottomSection{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+.jobByLocation{
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+.jobByLocation>p{
+    color: rgb(98,91,173);
+}
+#jobs{
+    display: flex;
+}
+#jobs>p>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Last section */
+.LastSection{
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 97%;
+    display: flex;
+    gap:60px;
+    margin-top: 30px;
+    padding: 0 15px;
+}
+#selectionSection{
+    /* border: 1px solid teal; */
+
+}
+#tollNo{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    
+    
+}
+#tollNo>div>p{
+    font-size:20px;
+}
+#tollNo>img{
+    width: 10%;
+    height: 90%;
+}
+#emailSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+#emailSection>p{
+    font-size:20px;
+
+}
+#emailSection>img{
+    width: 10%;
+    height: 90%;
+}
+#logoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+.logo{
+    height: 40px;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
