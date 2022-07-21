@@ -45,18 +45,27 @@
            a{
               text-decoration: none;
            }
-           #six_div>div:nth-child(1){
-            margin-top: -15px;
-           }
-           .ulparent {
-            /* display: flex; */
-            justify-content: space-around;
-            /* height: auto;
-            width: auto; */
+
+           .mainparent {
+                 display: flex;
+                 justify-content: space-around;
+
           }
-          .dropdown_menu:hover ul li{
-            display: block;
+          .mainparent{
+            position: relative;
+            
           }
+         .mainparent>ul{
+               width: 300px;
+               height: 500px;
+               display: none;
+          }
+         .mainparent:hover ul{
+               width: 300px;
+               height: 500px;
+               display: block;
+               position: absolute;
+         }
     </style>
 </head>
 <body>
@@ -64,13 +73,13 @@
         <div><a href="" ><img src="//media.monsterindia.com/trex/public/default/images/monster-logo.svg"  width="135" height="35" alt="monster header logo"></a></div>
         <div id="six_div" >
           
-            <div><a href="" >JOB SEARCH <i class="fas fa-caret-down" ></i></a>
+            <div class="mainparent"><a href="" >JOB SEARCH <i class="fas fa-caret-down" ></i></a>
                 <div class="dropdown_menu" >
                    <ul class="ulparent">
                       <li><a href="">JOBS BY LOCATION <i class="fas fa-caret-right" ></i></a>
                            <div class="dropdown_menu-1">
                                <ul> 
-                                <li><a href="">JOB IN BANGALORE</a></li>
+                                <li><a href="jobs.html">JOB IN BANGALORE</a></li>
                                 <li><a href="">JOB IN CHENNAI</a></li>
                                 <li><a href="">JOB IN COIMBATORE</a></li>
                                 <li><a href="">JOB IN DELHI</a></li>
