@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* :root{
+    
+} */
+/* searchbox of job */
+
+#job_profile_srch{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap:4px;
+    padding: 8px 0px;
+    background-color: #e8e8e8;
+    
+}
+#job_profile_srch>div{
+   border-left:none;
+   background-color: white;
+}
+#job_profile_srch>div>input{
+    border: none;
+    padding: 13px 0px;
+    border-left: none; 
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+#job_profile_srch>div>#job_scrh{
+    width: 450px;
+    
+}
+#job_profile_srch>div:nth-child(1)>i{
+   background-color: white;
+   padding-left: 8px;
+   padding-right: 0px;
+}
+#job_profile_srch>div:nth-child(2)>i{
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 0px;
+ }
+ #job_profile_srch>div:nth-child(3)>i{
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 0px;
+ }
+#job_profile_srch>div>#location_srch{
+    width: 300px;
+}
+#job_profile_srch>div>#exp_srch{
+    width: 170px;
+
+}
+    
+#job_profile_srch>#srch_button{
+   
+    padding: 13px 0px;
+    padding-left: 0px;
+    width: 110px;
+    margin-left: 0px;
+    color: white;
+    background-color: #6c54da;
+    border: none;
+}
+#job_profile_srch>#srch_button:hover{
+    background-color: rgb(17, 17, 131);
+}
+/* addition and filter status information */
+#srch_result_filter{
+    width: 90%;
+    display: grid;
+    grid-template-columns:2fr 4fr 1fr;
+    /* grid-template-rows: auto auto auto; */
+     margin: auto;
+    gap:15px;
+} 
+/* here start filter_criteria */
+#filter_criteria{
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
+#filter_criteria>div{
+    background-color: gray;
+}
+
+.fiter_option>input{
+    display: inline-block;
+}
+/* dlflk========== */
+.open_close {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .open_close:hover {
+    background-color: #555;
+  }
+  
+  .fiter_option {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  /*  */
+  /* .plus-minus{
+    display: flex;
+  } */
+  #srch_result_filter>#filter_criteria>div>h1>span{
+      float: right;
+    }
+   
+   /*css for search result section  */
+   #display_srch_res{
+    width:100%;
+   }
+   #display_srch_res>div{
+    width: 100%;
+    border: 0.2px solid grey;
+
+   }
+ #srch_result_filter>#upload_cv{
+   display: flex;
+   flex-direction: column;
+}
+ 
+   
+#srch_result_filter>#upload_cv>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+#ads_vertical{
+    margin: auto;
+} 
+#srch_result_filter>#upload_cv>div>#resume_internal{
+    
+    border: 1px solid blue;
+} 
+#srch_result_filter>#upload_cv>div>#resume_internal>p{
+    margin: auto;
+    text-align: center;
+}
+#srch_result_filter>#upload_cv>div>#resume_internal>div>p{
+    margin: auto;
+    text-align: center;
+}
