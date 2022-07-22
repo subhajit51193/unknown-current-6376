@@ -2,8 +2,8 @@
 import {footer} from "../components/footer.js"
 document.getElementById('footer').innerHTML=footer()
 
-// import {navbar} from "../components/navbar.js"
-// document.getElementById('footer').innerHTML=footer()
+import {navbar} from "../components/navbar.js"
+document.getElementById('third_navbar').innerHTML=navbar()
 
 
 
@@ -202,6 +202,9 @@ function display(){
    
     let box_1 = document.createElement('div')
      box_1.setAttribute('class','box_1')
+     box_1.addEventListener('click',function(){
+        AddNextPage(el,i)
+     })
 
      let  box2 = document.createElement('div')
     box2.setAttribute('class','box2')
@@ -240,6 +243,13 @@ function display(){
 }
 
 display()
+
+var arr = JSON.parse(localStorage.getItem('user')) || []
+function AddNextPage(el,i){
+  arr.oush(el)
+  window.location.href="covid.html"
+  localStorage.setItem('user',JSON.stringify(arr))
+}
 
 
 
