@@ -185,38 +185,123 @@ right: -25px;
   gap: 15px;
   background-color: #252831d4;
   padding: 15px;
+  margin-bottom: 10px;
 }
 #homeJobContentSecondDiv > div {
   display: grid;
   
   background-color: white;
   font-weight: bold;
-  padding:10px 20px;
+  padding:10px 30px;
   font-size: 14px;
   text-align: center;
+  align-items: center;
 }
-#homeJobContentSecondDiv > div>span{
- 
+#homeJobContentSecondDiv >div> div>span{
+ font-weight: 400;
  color:gray;
+ font-size: 12px;
 
-
- 
+} 
+#homeJobContentSecondDiv >div>h4+p {
+  font-size: 14px;
+ font-weight: 600;
  
 }
+
+ 
+ 
+
 
 #homeJobContentSecondDiv>div> a{
   text-decoration: none;
-  text-align: center;
+ 
  
 
 }
-#homeJobContentSecondDiv>div> span+a{
+#homeJobContentSecondDiv>div:first-child> div+a{
  
-  background-color: orange;
+  /* background-color: orange;
+ 
+ color: white; */
+ display: block;
+ 
+ background-color: orange;
+ padding: 10px;
+ 
  
  color: white;
+ 
+
+
+
+
 }
  #homeJobContentSecondDiv>div> a>span:last-child{ 
 
   font-size: 10px;
 } 
+#homeJobContentSecondDiv>div:last-child> div+a{
+  border: 1px solid blue;
+  padding: 10px 1.5em;
+}
+#HomeSliderContainer{
+width: 80%;
+margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  margin-top:60px ;
+}
+#HomeSlider{
+  padding: 10px 50px;
+}
+#HomeBanner{
+  width: 80%;
+margin: auto;
+margin-top:10px 
+}
+.homeWorkFromContainer{
+  
+  width: 80%;
+  margin: auto;
+  margin-top:10px ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  
+}
+.homeWorkFromContainer>div{
+  display: flex;
+  justify-content: space-between;
+  
+  text-align: start;
+}
+.homeWorkFromContainer>div>a{
+  text-decoration: none;
+  
+  align-items: end;
+}
+
+.homeWorkFrom{
+ 
+ padding: 10px 50px;
+}
+.homeJobs{
+ background-color:  #a8a8a83f;
+ 
+ font-weight: 400;
+ 
+ line-height: 25px;
+ font-size: 13px;
+ 
+ margin: 10px;
+ padding: 10px;
+ height: 450px;
+ width: 300px;
+}
+.homeJobs>span{
+  color: gray;
+  
+}
+.homeJobs>div+div{
+  font-size: 12px;
+}
