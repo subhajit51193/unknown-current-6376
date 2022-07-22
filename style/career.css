@@ -7,7 +7,8 @@
 {
     background-color: rgb(255, 255, 255);
     height: auto;
-    border: 3px solid rgb(255, 0, 212);
+    /* border: 3px solid rgb(255, 0, 212); */
+    width: 100%;
 } 
 #Ist_navbar{
     /* border: 1px solid red; */
@@ -17,7 +18,7 @@
     text-decoration: none;
     margin-top: 20px;
     font-size: 15px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-weight: bold;
     cursor: pointer;
     height: 20px;
@@ -223,6 +224,7 @@ background-color: aquamarine;
 #third_navbar
 {
     /* border:  1px solid rgb(5, 249, 233); */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-top: 40px;
     height: 60px;
     display: flex;
@@ -391,6 +393,157 @@ background-color: rgb(255, 255, 255);
 
 
 
+/* frth_navbar */
+
+#frth_navbar{
+    /* border: 1px solid rgb(247, 39, 39); */
+    text-align: center;
+    margin: 20px;
+    width: 90%;
+    margin: auto;
+}
+.para > p{
+    color: rgb(139, 145, 145);
+    font-size: 10px;
+    font-weight: bold;
+}
+#heading1 >h1{
+    font-size: 45px; 
+}
+#para1 > p{
+    color: rgb(139, 145, 145);
+    font-size: 20px;
+    font-style: italic;
+}
+#anchor_list{
+    text-align: center;
+    /* border: 1px solid darkmagenta; */
+    margin-top: 25px;
+}
+#anchor_list_child1{
+    /* border: 1px solid darkmagenta; */
+    width: 80%;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}#anchor_list_child1 a{
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+}
+#anchor_list_child2{
+    /* border: 1px solid darkmagenta; */
+    width: 90%;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}#anchor_list_child2 a{
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+}
+#anchor_list_child3{
+    /* border: 1px solid darkmagenta; */
+    width: 90%;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+#anchor_list_child3 a{
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+}
+#anchor_list_child4{
+    /* border: 1px solid darkmagenta; */
+    width: 90%;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}#anchor_list_child4 a{
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+}
+
+
+
+/*  append data 2*/
+
+#data_append_big_div{
+    position:sticky;
+    /* border: 5px solid rgb(2, 0, 139); */
+    display: flex;
+    margin: auto;
+    width: 95%;
+    height: 1000px;
+    margin-top: 20px;
+}
+#data_append_1{
+   /* border: 5px solid rgb(4, 255, 171); */
+  height: auto;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+#data_append_1::-webkit-scrollbar{
+    display: none;
+}
+
+#data_append_2{
+    position:sticky;
+    border: 65%;
+    /* border: 2px solid rgb(255, 1, 208); */
+    margin-left: 50px;
+    width: 29%;
+    height: 1000px;
+    
+}
+.box_1{
+    display: flex;
+    /* border: 1px solid rgb(1, 5, 255); */
+    gap: 20px;
+    width: auto;
+    position: sticky;
+    
+}
+.box_1 img{
+    width: 100%;
+    height: 150px;
+}
+.box2{
+    /* border: 1px solid rgb(255, 1, 1); */
+    width: 40%;
+}
+
+.box3{
+    /* border: 1px solid rgb(69, 255, 1); */
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    width: 60%;
+
+}
+.title{
+    color: rgb(255, 255, 255);
+    background-color: #4c4084;
+    margin-top: -8px;
+}
+.headings{
+    color: rgb(14, 14, 14);
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+.paragraph{
+    color: rgb(82, 73, 73);
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 15px;
+}.paragraph1{
+    color: rgb(132, 129, 129); 
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
 
 
 
@@ -398,11 +551,64 @@ background-color: rgb(255, 255, 255);
 
 
 
+/* covid small append */
 
+.div-1{
+    display: flex;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    /* border: 1px solid rgb(1, 5, 255); */
+    gap: 20px;
+    width: auto;
+    margin-top: 20px;
+}
+.div-1 img{
+    width: 100%;
+    height: 100px;
+}
+.box-2{
+    /* border: 1px solid rgb(255, 1, 1); */
+    width: 25%;
+    margin: auto;
+}
 
+.box-3{
+    /* border: 1px solid rgb(69, 255, 1); */
+    width: 70%;
+}
+.tit{
+    color: rgb(255, 255, 255);
+    background-color: #4c4084;
+    margin-top: -8px;
+}
+.heads{
+    color: rgb(14, 14, 14);
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
 
-
-
+}
+.parag{
+    color: rgb(82, 73, 73);
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 15px;
+}.paragraph1{
+    color: rgb(132, 129, 129); 
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#data_append_3 > h2{
+   margin-left: 20px;
+   color: #4c4084;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   margin-top: 20px;
+}
+#data_append_4{
+    margin-top: 50px;
+}
 
 
 
@@ -494,9 +700,47 @@ background-color: rgb(255, 255, 255);
 
 
 
+/* small_footer */
 
 
+.small_footer{
+    /* border: 1px solid aqua; */
+    margin-top: 30px;
+    width: 100%;
+    background-color: #dedede;
+}
+.small_footer1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.small_footer> div p{
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: auto;
+    color: #4c4084;
+    font-size: 13px;
+    font-weight: 200;
+}
 
+.anchor_tag >a{
+    color: black;
+    text-decoration: none;
+    gap: 20px;
+    margin: auto;
+    padding: 0 10px;
+    line-height: 30px;
+  
+}
+.anchor_tag{
+    margin-top: 20px;
+    
+}
 
 
 
@@ -635,11 +879,9 @@ background-color: rgb(255, 255, 255);
     bottom: 0;
 }
 #chat{
-    width: 10%;
-    height: 140px;
+    width: 8%;
+    height: 100px;
     margin-top: 30px;
-
-   
 }
 
 
