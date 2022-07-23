@@ -78,3 +78,91 @@ function  footer(){
     `
 }
 export{footer}
+
+
+
+
+
+
+
+
+
+
+
+function footer1(){
+    return ` <div class="small_footer1">
+    <p>Jobs by Locations</p>
+    <div class="anchor_tag">
+        <a href="">Work from home jobs in Hyderabad </a>
+        <a href="">Work from home jobs in Bangalore</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Delhi </a>
+        <a href=""> Work from home jobs in India Work</a>
+        <a href="">from home jobs in pune</a>
+        <a href="">Work from home jobs in Chennai</a>
+        <a href="">Work from home jobs in Kolkata</a>
+        <a href="">Work from home jobs in Coimbatore</a>
+        <a href="">Work from home jobs in Ahmedabad</a>
+    </div>
+</div>
+
+
+<div class="small_footer1">
+    <p>Jobs by skills</p>
+    <div class="anchor_tag">
+        <a href="">Work from home jobs in Hyderabad </a>
+        <a href="">Work from home jobs in Bangalore</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Delhi </a>
+        <a href=""> Work from home jobs in India Work</a>
+        <a href="">from home jobs in pune</a>
+        <a href="">Work from home jobs in Chennai</a>
+        <a href="">Work from home jobs in Kolkata</a>
+        <a href="">Work from home jobs in Coimbatore</a>
+        <a href="">Work from home jobs in Ahmedabad</a>
+    </div>
+</div>
+
+
+<div class="small_footer1">
+    <p>Part time jobs</p>
+    <div class="anchor_tag">
+        <a href="">Work from home jobs in Hyderabad </a>
+        <a href="">Work from home jobs in Bangalore</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Delhi </a>
+        <a href=""> Work from home jobs in India Work</a>
+        <a href="">from home jobs in pune</a>
+        <a href="">Work from home jobs in Chennai</a>
+        <a href="">Work from home jobs in Kolkata</a>
+        <a href="">Work from home jobs in Coimbatore</a>
+        <a href="">Work from home jobs in Ahmedabad</a>
+    </div>
+</div>
+
+
+<div class="small_footer1">
+    <p>Work from home jobs</p>
+    <div class="anchor_tag">
+        <a href="">Work from home jobs in Hyderabad </a>
+        <a href="">Work from home jobs in Bangalore</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Mumbai</a>
+        <a href="">Work from home jobs in Delhi </a>
+        <a href=""> Work from home jobs in India Work</a>
+        <a href="">from home jobs in pune</a>
+        <a href="">Work from home jobs in Chennai</a>
+        <a href="">Work from home jobs in Kolkata</a>
+        <a href="">Work from home jobs in Coimbatore</a>
+        <a href="">Work from home jobs in Ahmedabad</a>
+    </div>`
+}
+export {footer1}
+
+
+
+
+

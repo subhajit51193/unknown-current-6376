@@ -1,11 +1,23 @@
 
+import {navbar1} from "../components/navbar.js"
+document.getElementById('Ist_navbar').innerHTML=navbar1()
+
+import {navbar2} from "../components/navbar.js"
+document.getElementById('sec_navbar').innerHTML=navbar2()
+
+import {navbar3} from "../components/navbar.js"
+document.getElementById('third_navbar').innerHTML=navbar3()
+
 import {footer} from "../components/footer.js"
 document.getElementById('footer').innerHTML=footer()
 
-import {navbar} from "../components/navbar.js"
-document.getElementById('third_navbar').innerHTML=navbar()
 
 
+import {footer1} from "../components/footer.js"
+document.querySelector('.small_footer').innerHTML = footer1()
+
+let x = footer1()
+console.log(x)
 
 
 
@@ -244,9 +256,9 @@ function display(){
 
 display()
 
-var arr = JSON.parse(localStorage.getItem('user')) || []
+var arr = JSON.parse(localStorage.getItem('user')) ||[]
 function AddNextPage(el,i){
-  arr.oush(el)
+  arr.push(el)
   window.location.href="covid.html"
   localStorage.setItem('user',JSON.stringify(arr))
 }

@@ -215,6 +215,8 @@ background-color: aquamarine;
     margin-top: 10px;
     /* margin-left: ; */
     text-align: end;
+    position:sticky ; 
+    top:0;
   
 }#third_first_child a {
     text-align: start;
@@ -228,6 +230,7 @@ background-color: aquamarine;
     margin-top: 40px;
     height: 60px;
     display: flex;
+
    
     
 }
@@ -237,6 +240,7 @@ background-color: aquamarine;
     /* border:  1px solid rgb(4, 0, 255); */
     height: 20px;
     width: 50%;
+    
 }
 
 #third_navbar a .fa
@@ -297,6 +301,7 @@ background-color: aquamarine;
 
  .box1 img{
 width: 100%;
+
 height: 150px;
 }
 .box1{
@@ -362,7 +367,7 @@ background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -419,6 +424,7 @@ background-color: rgb(255, 255, 255);
     text-align: center;
     /* border: 1px solid darkmagenta; */
     margin-top: 25px;
+    padding-bottom: 25px;
 }
 #anchor_list_child1{
     /* border: 1px solid darkmagenta; */
@@ -471,26 +477,25 @@ background-color: rgb(255, 255, 255);
 /*  append data 2*/
 
 #data_append_big_div{
-    position:sticky;
-    /* border: 5px solid rgb(2, 0, 139); */
     display: flex;
     margin: auto;
     width: 95%;
     height: 1000px;
-    margin-top: 20px;
+    margin-top: 40px;
+    
 }
 #data_append_1{
    /* border: 5px solid rgb(4, 255, 171); */
   height: auto;
-  overflow: hidden;
   overflow-y: scroll;
+  
 }
 #data_append_1::-webkit-scrollbar{
     display: none;
+    
 }
 
 #data_append_2{
-    position:sticky;
     border: 65%;
     /* border: 2px solid rgb(255, 1, 208); */
     margin-left: 50px;
@@ -503,16 +508,20 @@ background-color: rgb(255, 255, 255);
     /* border: 1px solid rgb(1, 5, 255); */
     gap: 20px;
     width: auto;
-    position: sticky;
+    margin:20px 0;
     
 }
 .box_1 img{
     width: 100%;
-    height: 150px;
+    object-fit: cover;
+    height: 200px;
+  
 }
 .box2{
     /* border: 1px solid rgb(255, 1, 1); */
     width: 40%;
+    /* position: relative; */
+    
 }
 
 .box3{
@@ -523,7 +532,10 @@ background-color: rgb(255, 255, 255);
 }
 .title{
     color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 4px;
     background-color: #4c4084;
+    padding:5px 5px;
     margin-top: -8px;
 }
 .headings{
@@ -623,20 +635,6 @@ background-color: rgb(255, 255, 255);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-
 #category a{
     font-size: 14px;
     cursor: pointer;
@@ -707,7 +705,7 @@ background-color: rgb(255, 255, 255);
     /* border: 1px solid aqua; */
     margin-top: 30px;
     width: 100%;
-    background-color: #dedede;
+    background-color:rgb(240, 239, 239);
 }
 .small_footer1{
     display: flex;
