@@ -5,6 +5,9 @@
     font-family:Arial, Helvetica, sans-serif;
     
 }
+.FeaturedProfileContainer{
+    margin: 15px;
+}
 .header{
     display: flex;
     gap: 20px;
@@ -571,14 +574,17 @@ select{
     color: white;
 }
 .ServicePackageHeading{
-    border: 1px solid red;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* border: 1px solid red; */
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 40px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+
 
 }
 .serviceList{
@@ -614,11 +620,16 @@ select{
     display: flex;
     border-radius: 10px;
     gap: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .serviceName>div{
-    /* border: 1px solid black; */
+    /* border: 1px solid red; */
+    text-align: left;
 }
+.serviceName>div:nth-child(2){
+    width: 60%
+}
+
 
 
 
