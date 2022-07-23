@@ -2,9 +2,126 @@
     margin: 0;
     padding: 0;
     background-color: transparent;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.PremiumContainer{
+    margin: 15px;
+}
+#chatbotDiv{
+    display: flex;
+   justify-content: flex-start;
+   position:fixed;
+   width: 100px;
+   height: 100px;
+   margin-top: 700px;
+   
+}
+#chatbox>img{
+    width: 100%;
+    height: 100%;
 }
 
+.chatbot{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 500px;
+    overflow-x: hidden;
+    line-height: 20px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    position:absolute;
+    padding: 20px;
+    background-color: white;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.chatbot>div{
+    background-color: rgb(93,77,168);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding:20px;
+    color: white;
+}
+#closeChatbot{
+    height: 40px;
+    background-color: rgb(93,77,168);
+    color: white;
+    font-size: 20px;
+    width: 90%;
+}
+#userBox{
+    width: 80%;
+    height: 30px;
+}
+.popup{
+    border: 1px solid black;
+    display: flex;
+    width: 1200px;
+    /* height: 500px; */
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    position:absolute;
+    padding: 20px;
+    background-color: white;
+    visibility: hidden;
+    transition: transform 0.4s,top 0.4s;
+    border-radius: 20px;
+
+
+}
+.open-popup{
+    
+    visibility: visible;
+    top: 60%;
+    transform: translate(-50%,-50%) scale(1);
+
+
+
+}
+.popup>div:first-child{
+    background-color: rgb(239,237,246);
+}
+.popup>div:last-child{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+}
+.popup>div:last-child>h2{
+    color: rgb(140,140,140);
+}
+.popup>div:last-child>p{
+    font-size: 25px;
+}
+.popup>div:last-child>button{
+    height: 50px;
+    width: 35%;
+    border-radius: 10px;
+    background-color: rgb(96,72,157);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.popup>div:last-child>button>a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.popup>img{
+    width: 100%;
+    height: 100%;
+}
 /* header */
 .header{
     display: flex;
