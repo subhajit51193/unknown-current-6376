@@ -52,10 +52,10 @@
     color: white;
 }
 #closeChatbot{
-    height: 30px;
-    background-color: black;
+    height: 40px;
+    background-color: rgb(93,77,168);
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     width: 90%;
 }
 #userBox{
