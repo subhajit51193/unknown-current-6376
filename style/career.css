@@ -532,11 +532,12 @@ background-color: rgb(255, 255, 255);
 }
 .title{
     color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 4px;
+    position: relative;
+    bottom: 30px;
     background-color: #4c4084;
     padding:5px 5px;
-    margin-top: -8px;
+    /* margin-top: -25px; */
+    width: 120px;
 }
 .headings{
     color: rgb(14, 14, 14);
