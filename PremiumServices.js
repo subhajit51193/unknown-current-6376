@@ -1,3 +1,8 @@
+import navbar from "./component/navbar.js";
+ document.querySelector(".main_container").innerHTML=navbar();
+ import footer from "./component/footer.js";
+document.querySelector("#footer746").innerHTML=footer();
+
 let popup=document.getElementById("popup");
 
 document.querySelector("#benifitsbtn>a").addEventListener("click",(e)=>{
