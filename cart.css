@@ -1,0 +1,146 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.cartPage{
+    margin: 10px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.noItems{
+    /* border: 1px solid red; */
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.noItems>p{
+    color:rgb(140,140,170);
+}
+.continueShopping>h2>a{
+    color :rgb(0,122,255);
+    text-decoration: none;
+}
+.ProductContainer{
+    /* border: 1px solid red; */
+    height: 500px;
+    width:100%;
+    display: flex;
+    gap: 10px;
+}
+.ProductContainer>div{
+    /* border: 1px solid black; */
+    width: 50%;
+
+}
+.productDetails{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#heading{
+    display: flex;
+    border: 1px solid rgb(205,205,205);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 25px;
+}
+#profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+#profile>p{
+    font-size: 20px;
+}
+#coupon{
+    /* border:  1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+}
+#coupon>div{
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    border-style: dotted;
+    background-color: rgb(250,243,237);
+    border-radius: 10px;
+    color: orange;
+    margin-right: 20px;
+}
+#coupontext{
+    font-size: 20px;
+    width: 80%;
+    background-color: white;
+    margin: 10px;
+    border: none;
+}
+#coupon>div>h2:hover{
+    cursor: pointer;
+}
+#discount{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 20px;
+}
+#tax{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 20px;
+}
+#total{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 20px;
+    padding-left: 390px;
+    border: 1px solid rgb(205,205,205);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+}
+.sidebar{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+#terms{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.sidebar>div{
+    /* border: 1px solid blue; */
+
+}
+.sidebar>div:last-child{
+    background-color: rgb(205,205,205);
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.sidebar>div:last-child>h3>a{
+    color: white;
+    text-decoration: none;
+}
+.disclaimer{
+    background-color: rgb(244,244,245);
+    padding:10px  20px;
+    border-radius: 10px;
+
+}
+/* imported */
+.main_container{
+    margin-top: 30px;
+}
+#footer746{
+    margin-top: 30px;
+}
