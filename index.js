@@ -211,7 +211,7 @@ DisplayPremium();
 let appendLiIn = (event) => {
   
   // let i="Skills"
-   i = event.target.innerText;
+  let i = event.target.innerText;
   console.log(i);
   // console.log(findJobData[i])
   appendLiInDiv.innerHTML=null;
