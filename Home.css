@@ -70,7 +70,7 @@ right: -25px;
   margin-left: -10px;
 }
 
-#homeSearchContainerNav>a::before{
+#homeSearchContainerNav>a ::before{
     content: "";
     position: absolute;
     background-color: whitesmoke;
@@ -261,25 +261,29 @@ margin: auto;
 margin-top:10px 
 }
 .homeWorkFromContainer{
+
   width: 80%;
   margin: auto;
   margin-top:10px ;
-  
+  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+
 }
-.homeWorkFromContainer>div{
+.insideContainerHead{
   display: flex;
   justify-content: space-between;
   
   text-align: start;
 }
-.homeWorkFromContainer>div>a{
+.insideContainerHead{
   text-decoration: none;
   margin:auto
   align-items: end;
+
 }
 .homeWorkFrom{
- 
- padding: 10px 40px;
+  display: block;
+ padding: 10px 50px;
 }
 .homeJobs{
  background-color:  #a8a8a83f;
