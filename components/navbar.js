@@ -1,6 +1,6 @@
 function navbar1(){
     return `  <div id="right_div">
-    <a href=""> JOB SEARCH</a>
+    <a href="../all/jobs.html"> JOB SEARCH</a>
     <i class='fa fa-angle-down html_css_arrow' style='color: rgb(0, 0, 0)'></i>
     <div id="drop_down">
         <li><a href="">Job By Skills</a> </li>
