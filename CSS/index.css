@@ -3,8 +3,14 @@
    padding: 0;
    font-family:Arial, Helvetica, sans-serif;
    box-sizing: border-box;
+   
 }
-
+ #HomeContainer{
+  display: block;
+  
+}
+  
+  
 /* <!-- Search Box --> */
 #homeSearchContainerMain {
   height: 350px;
@@ -554,6 +560,9 @@ font-weight: 500;
 }
 #homeDesignation>ul>li:hover::before{
   width: 105%;
+}
+#HomeLastDiv{
+  margin-bottom: 10px;
 }
 
 

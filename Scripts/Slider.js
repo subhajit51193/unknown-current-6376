@@ -65,5 +65,5 @@ $(document).ready(function () {
   );
   
 });
-let homeJobs =document.getElementsByClassName("homeJobs");
-console.log(homeJobs[0].innerHTML)
+// let homeJobs =document.getElementsByClassName("homeJobs");
+// console.log(homeJobs[0].innerHTML)
