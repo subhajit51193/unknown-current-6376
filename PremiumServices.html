@@ -6,11 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./PremiumServices.css" />
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
   </head>
   <body>
+    <div id="chatbotDiv">
+      <img src="https://cdn.yellowmessenger.com/iuASh5rfzQps1654581153075.png" alt="">
+    </div>
+    <div class="chatbot" id="chatbot">
+      <div>
+        <h1>Moster Buddy</h1>
+        <h2>Need help with your Job Search?</h2>
+     </div>
+      <p id="chatLog">Hi there ! I am Monster Buddy! I am your Job search assistant<br></p>
+      <input id="userBox" type="text" onkeydown="if (event.keyCode==13) {talk()}">
+      <button id="closeChatbot">Close Chat</button>
+ </div>
+    <div class="popup" id="popup">
+        <div><img src="https://media.monsterindia.com/trex/public/default/images/career-services/featured-profile-services.png" alt=""></div>
+        <div>
+          <h2>FEATURED PROFILE</h2>
+          <h1>Benifits</h1>
+          <p id="one">&#10004 Your profile is upfront when recruiters search candidate like you</p>
+          <p id="two">&#10004 You are showcased as an active job seeker who is keenly looking</p>
+          <p id="three"></p>
+          <p id="four"></p>
+          <p id="five"></p>
+          <button id="starting_amount"><a href="./FeaturedProfile.html">Starting at Rs.1999</a></button>
+          <button id="closepopup">Close</button>
+        </div>
+    </div>
+    <div class="main_container"></div>
     <div class="PremiumContainer">
-      <div class="header">cd
-        <h2><a href="">Home</a></h2>
+      <div class="header">
+        <h2><a href="Home.html">Home</a></h2>
         <h2>></h2>
         <h2>Premium Services</h2>
       </div>
@@ -20,7 +49,7 @@
           <h2>Give your job search journey a boost</h2>
         </div>
         <div>
-          <button id="call">Call me back</button>
+          <button id="call" >Call me back</button>
         </div>
       </div>
       <div class="description">
@@ -47,9 +76,9 @@
               jobseekers
             </p>
             <button class="benifits">
-              <a href="">Starting at Rs. 1999</a>
+              <a href="./FeaturedProfile.html">Starting at Rs. 1999</a>
             </button>
-            <p><a href="">Benefits</a></p>
+            <p id="benifitsbtn"><a href="">Benefits</a></p>
           </div>
         </div>
         <div class="div">
@@ -68,7 +97,7 @@
             <button class="benifits">
               <a href="">Starting at Rs. 2499</a>
             </button>
-            <p><a href="">Benefits</a></p>
+            <p id="benifitsbtn2"><a href="">Benefits</a></p>
           </div>
         </div>
         <div class="div">
@@ -87,7 +116,7 @@
             <button class="benifits">
               <a href="">Starting at Rs. 3999</a>
             </button>
-            <p><a href="">Benefits</a></p>
+            <p id="benifitsbtn3"><a href="">Benefits</a></p>
           </div>
         </div>
         <div class="div">
@@ -179,7 +208,7 @@
               </select>
               <input type="text" placeholder="Enter your phone number" />
             </div>
-            <button><a href="">CALL ME BACK</a></button>
+            <button id="callMeBack"><a href="">CALL ME BACK</a></button>
           </div>
         </div>
       </div>
@@ -363,6 +392,7 @@
         </div>
       </div>
     </div>
+    <div id="footer746"></div>
   </body>
 </html>
-<script src=""></script>
+<script src="./PremiumServices.js" type="module"></script>

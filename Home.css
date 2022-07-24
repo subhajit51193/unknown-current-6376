@@ -1,3 +1,6 @@
+
+
+
 * {
    margin: 0;
    padding: 0;
@@ -70,7 +73,7 @@ right: -25px;
   margin-left: -10px;
 }
 
-#homeSearchContainerNav>a ::before{
+#homeSearchContainerNav>a::before{
     content: "";
     position: absolute;
     background-color: whitesmoke;
@@ -269,20 +272,20 @@ margin-top:10px
   padding: 30px;
   
 }
-.insideContenerHead{
+.homeWorkFromContainer>div{
   display: flex;
   justify-content: space-between;
   
   text-align: start;
 }
-.insideContenerHead>a{
+.homeWorkFromContainer>div>a{
   text-decoration: none;
   
   align-items: end;
 }
 
 .homeWorkFrom{
-  display: block;
+ 
  padding: 10px 50px;
 }
 .homeJobs{
@@ -304,107 +307,17 @@ margin-top:10px
 }
 .homeJobs>div+div{
   font-size: 12px;
-}
-#homePremiumServices{
-  display: flex;
- 
-  gap: 20px;
-  justify-content: center;
-  
-}
-.premiumServices{
-  width: 200px;
-  display: grid;
- 
-  font-size: 12px;
-  text-align: start;
- 
-}
-
-.premiumServices>div{
-  display: grid;
-  padding: 20px;
-  gap: 10px;
-  margin-top: 10px;
-}
-.premiumServices>div>a{
-  text-decoration: none;
-  text-align: end;
-}
-#homeFindJob{
-  display: grid;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  width: 80%;
-  margin: auto;
-  padding: 50px;
-  gap: 20px;
-}
-#homeFindJob>h3{
- font-size: 25px;
-}
-#homeFindJobUl{
-  display: flex;
-  justify-content: space-between;
- list-style-type:none;
- text-decoration: none;
-
-}
-
-#homeFindJobUl>li{
- 
-  
-  position: relative;
-  
-  padding: 5px 2em;
-  border-radius: 5px;
-}
-#homeFindJobUl>li::after{
-  content: "";
-  position: absolute;
-  background-color:#5d4da8 ;
-  height: 2px;
- 
-  width: 0%;
- 
-  left:50%;
-   bottom: -10px; 
- transition: width .5s, ease-in-out   transform ;
-   transform: translate(-50%, -50%);
-   
-}
-#homeFindJobUl>li:hover::after{
-  width:115%;
-}
-
-
-
-#homeAppendLiInDiv{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 15px;
- justify-content: start;
- 
- margin-top: 10px;
-}
-#homeAppendLiInDiv>li{
-  position: relative;
-  width: fit-content;
-  list-style-type:none;
- 
-}
-#homeAppendLiInDiv>li::before{
-  content: "";
-  position: absolute;
-  background-color: #5d4da8 ;
-  height: 1px;
- 
-  width: 0%;
-  left:50%;
-   bottom: -5px; 
- transition: width .5s, ease-in-out  transform ;
-   transform: translate(-50%, -50%);
-}
-#homeAppendLiInDiv>li:hover:before{
- width: 105%;
-  
-}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
