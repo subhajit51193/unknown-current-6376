@@ -94,7 +94,10 @@ function appendActualJobCard(database){
         
         let btn = document.createElement('button')
         btn.innerText="Apply"
-        btn.setAttribute("class", 'apply_for_job') 
+        btn.setAttribute("class", 'apply_for_job') ;
+        btn.addEventListener("click",()=>{
+          window.location.href="../login.html";
+        })
         access_share.append(post_update, star, div_img, btn)  
         job_main_div.append(jobtitle, com_name, basic_inf, des, skills, access_share)
         
