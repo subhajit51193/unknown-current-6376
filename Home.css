@@ -1,9 +1,11 @@
 * {
    margin: 0;
    padding: 0;
-   font-family: sans-serif;
+   font-family:Arial, Helvetica, sans-serif;
    box-sizing: border-box;
 }
+
+/* <!-- Search Box --> */
 #homeSearchContainerMain {
   height: 350px;
 
@@ -70,7 +72,7 @@ right: -25px;
   margin-left: -10px;
 }
 
-#homeSearchContainerNav>a ::before{
+#homeSearchContainerNav>a::before{
     content: "";
     position: absolute;
     background-color: whitesmoke;
@@ -87,12 +89,7 @@ right: -25px;
 #homeSearchContainerNav>a:hover:before{
   width: 100%;
 }
-/* #homeSearchContainerNav>a:hover{
-   text-decoration-color: aliceblue ;
-   text-decoration-line: underline;
-   
-   transition: 0.4s;
-} */
+
 
 #homeSearchContainer {
   background-color: #252831d4;
@@ -101,13 +98,8 @@ right: -25px;
 #homeSearch {
  
   height: 50px;
- 
-  
   display: flex;
-  
   align-items: center;
-  
- 
   margin: auto;
 }
 
@@ -209,42 +201,27 @@ right: -25px;
  
 }
 
- 
- 
-
-
 #homeJobContentSecondDiv>div> a{
   text-decoration: none;
- 
- 
-
 }
+
 #homeJobContentSecondDiv>div:first-child> div+a{
- 
-  /* background-color: orange;
- 
- color: white; */
  display: block;
- 
  background-color: orange;
  padding: 10px;
- 
- 
  color: white;
- 
-
-
-
-
 }
- #homeJobContentSecondDiv>div> a>span:last-child{ 
-
+#homeJobContentSecondDiv>div> a>span:last-child{ 
   font-size: 10px;
 } 
 #homeJobContentSecondDiv>div:last-child> div+a{
   border: 1px solid blue;
   padding: 10px 1.5em;
 }
+
+
+/* <!-- Logo Slider --> */
+
 #HomeSliderContainer{
 width: 80%;
 margin: auto;
@@ -254,54 +231,329 @@ margin: auto;
 }
 #HomeSlider{
   padding: 10px 50px;
+  
 }
-#HomeBanner{
-  width: 80%;
-margin: auto;
-margin-top:10px 
-}
-.homeWorkFromContainer{
+#HomeSlider>img{
+  width: 10px;
+  margin: 50px;
 
+}
+#HomeLastDiv{ 
+  display: grid;
+  grid-template-columns: 75% 25%;
   width: 80%;
   margin: auto;
-  margin-top:10px ;
-  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 30px;
-
+  gap: 20px;
 }
-.insideContainerHead{
+
+/* Half Big Container */
+#HomeBigDiv{
+ display: inline-flexbox;
+}
+
+/* <!-- Banners Slider --> */
+
+#HomeBanner{
+  display: block;
+  margin-top:10px 
+}
+.Bannerslide>img{
+  width: 100%;
+}
+/* <!-- work From Home Container --> */
+
+.homeWorkFromContainer{
+  margin-top:10px ;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  
+}
+.insideContenerHead{
   display: flex;
   justify-content: space-between;
   
   text-align: start;
 }
-.insideContainerHead{
+.insideContenerHead>a{
   text-decoration: none;
-  margin:auto
   align-items: end;
-
 }
+
+/* <!-- work From Home Container --> */
+
 .homeWorkFrom{
-  display: block;
+  display: flex;
+ 
  padding: 10px 50px;
+ 
 }
 .homeJobs{
  background-color:  #a8a8a83f;
- 
+ width: 30%;
  font-weight: 400;
- 
+  
  line-height: 25px;
  font-size: 13px;
  
  margin: 10px;
  padding: 10px;
- height: 450px;
- width: 300px;
+ 
 }
 .homeJobs>span{
   color: gray;
   
 }
+/* .homeJobs>div:first-child{
+
+  height: 70px;
+} */
+
 .homeJobs>div+div{
   font-size: 12px;
+  height: 50px;
 }
+
+/* <!-- Premium Services Container --> */
+
+#homePremiumServices{
+  display: flex;
+ 
+  gap: 20px;
+  justify-content: center;
+  
+}
+.premiumServices{
+  width: 200px;
+  display: grid;
+ 
+  font-size: 12px;
+  text-align: start;
+ 
+}
+
+.premiumServices>div{
+  display: grid;
+  padding: 20px;
+  gap: 10px;
+  margin-top: 10px;
+}
+.premiumServices>div>a{
+  text-decoration: none;
+  text-align: end;
+}
+ 
+/* <!-- Find Job Vacancies Container --> */
+
+#homeFindJob{
+  display: grid;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 50px;
+  gap: 20px;
+}
+#homeFindJob>h3{
+ font-size: 25px;
+}
+#homeFindJobUl{
+  display: flex;
+  justify-content: space-between;
+ list-style-type:none;
+ text-decoration: none;
+}
+
+#homeFindJobUl>li{
+ position: relative;
+  padding: 5px 1em;
+  border-radius: 5px;
+}
+
+
+#homeFindJobUl>li::after{
+  content: "";
+  position: absolute;
+  background-color:#5d4da8 ;
+  height: 2px;
+  width: 0%;
+  left:50%;
+   bottom: -10px; 
+  transition: width .5s, ease-in-out   transform ;
+   transform: translate(-50%, -50%);
+}
+
+#homeFindJobUl>li:hover::after{
+  width:115%;
+}
+
+/* <!-- append job find data search result --> */
+
+#homeAppendLiInDiv{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+
+  gap: 15px;
+ margin-top: 5px;
+ margin-left: -10px;
+}
+#homeAppendLiInDiv>li{
+  position: relative;
+  width: fit-content;
+  list-style-type:none;
+  
+}
+#homeAppendLiInDiv>li::before{
+  content: "";
+  position: absolute;
+  background-color: #5d4da8 ;
+  height: 1px;
+  width: 0%;
+  left:50%;
+  bottom: -5px; 
+  transition: width .5s, ease-in-out  transform ;
+  transform: translate(-50%, -50%);
+}
+#homeAppendLiInDiv>li:hover:before{
+ width: 100%;
+}
+
+
+
+#HomeGetCall>img{
+  width: 100%;
+}
+
+#homeReserch{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px;
+}
+#homeReserch>h2{
+  padding: 20px;
+}
+#homeReserch>div{
+  margin: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.101);
+}
+#homeReserch>div>h3{
+font-weight: 500;
+}
+#homeReserch>div>p{
+  margin: 10px;
+  
+  color: gray;
+}
+#homeReserch>div>a{
+  text-decoration: none;
+  text-align: end;
+  align-items: end;
+}
+
+/* <!-- Career Advice and Tips --> */
+
+#homeCareer{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px;
+}
+#homeCareer>h2{
+  padding: 20px;
+  display: inline;
+  margin-right: 350px;
+}
+#homeCareer>h2+a{
+  justify-content: end;
+  text-decoration: none;
+ text-align: end;
+}
+#homeCareer>ul{
+  display: grid;
+  grid-template-columns: 2% 40% 2% 40% ;
+  gap: 20px;
+  margin: 30px;
+}
+#homeCareer>ul>li{
+  list-style-type:none;
+  color: gray;
+  font-weight: 800;
+}
+#homeCareer>ul>span{
+  color: black;
+  font-weight: 300;
+ 
+  display: inline;
+}
+#homeCareer>ul>span:hover{
+  color: rgba(80, 80, 233, 0.653);
+}
+#homeCareer>ul>span>p{
+  display: inline;
+  font-size: 13px;
+  color: gray;
+  
+}
+
+
+/* <!-- Second half Section --> */
+
+#sideAdd,#sideAdd{
+
+ text-align: center;  
+ margin: 10px;
+}
+
+/* <!-- Jobs by Top Skills Container --> */
+
+#homeJobBySkill>h3,#homeDesignation>h3{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 15px;
+  margin: 20px 0px -10px 0px;
+}
+#homeJobBySkill>ul,#homeDesignation>ul{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ margin-top: 10px;
+ padding: 20px;
+}
+#homeJobBySkill>ul>li,#homeDesignation>ul>li{
+  list-style-type:none;
+  margin: 15px;
+  color: gray;
+  position: relative;
+  width: fit-content;
+  
+}
+#homeJobBySkill>ul>li::before{
+  content: "";
+  position: absolute;
+  background-color: #5e4da8a5 ;
+  height: 0.5px;
+ 
+  width: 0%;
+  left:50%;
+   bottom: -5px; 
+ transition: width .5s, ease-in-out  transform ;
+   transform: translate(-50%, -50%);
+}
+#homeJobBySkill>ul>li:hover::before{
+  width: 105%;
+}
+
+
+/* <!-- Popular Designations Container --> */
+#homeDesignation>ul>li::before{
+  content: "";
+  position: absolute;
+  background-color: #5e4da8b1 ;
+  height: 0.5px;
+ 
+  width: 0%;
+  left:50%;
+   bottom: -5px; 
+ transition: width .5s, ease-in-out  transform ;
+   transform: translate(-50%, -50%);
+}
+#homeDesignation>ul>li:hover::before{
+  width: 105%;
+}
+
+
+
