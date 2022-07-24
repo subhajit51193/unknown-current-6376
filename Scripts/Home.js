@@ -3,10 +3,10 @@
 // }
                             // Job Data Collection
 
-import navbar from "./component/navbar.js";
- document.querySelector(".main_container").innerHTML=navbar();
- import footer from "./component/footer.js";
-document.querySelector("#footer746").innerHTML=footer();
+// import navbar from "./component/navbar.js";
+//  document.querySelector(".main_container").innerHTML=navbar();
+//  import footer from "./component/footer.js";
+// document.querySelector("#footer746").innerHTML=footer();
 
 
   jobdata=[
