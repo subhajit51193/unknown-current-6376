@@ -41,18 +41,27 @@ $(document).ready(function () {
       autoplay: true,
       arrows:false,
       autoplaySpeed: 4000,
+      
     },
   );
 
   $('.homeWorkFrom').slick({
    
     slidesToShow: 3,
-   
+    adaptiveHeight: true,
     speed: 300,
    
 
   });
+  $('#sideAdd2').slick(
+    {
+      autoplay: true,
+      arrows:false,
+      autoplaySpeed: 5000,
+      adaptiveHeight: true,
+      fade: true,
+      cssEase: 'linear'
+    },
+  );
   
 });
-let homeJobs =document.getElementsByClassName("homeJobs");
-console.log(homeJobs[0].innerHTML)
