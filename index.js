@@ -1,8 +1,14 @@
 // function document.createElement(tag){
 //   return document.createElement(tag)
 // }
+                            // Job Data Collection
 
-  jobdata=[
+                            import navbar from "../unknown-current-6376/component/navbar.js";
+                           document.querySelector(".main_container").innerHTML=navbar();
+                            import footer from "../unknown-current-6376/component/footer.js";
+                           document.querySelector("#footer746").innerHTML=footer();
+
+let  jobdata=[
     {
     
     companyName:"Hucon Solutions India Private Limited",
@@ -69,7 +75,7 @@
     {
     
     companyName:"Mouri Tech Private Limited",
-    jobTitle:"" ,
+    jobTitle:"Sourcing Executive " ,
     experience: "experience:1-3 years " ,
     locations :"Location(s):Hyderabad / Secunderabad, Telangana",
     id:"job09",
@@ -90,31 +96,30 @@
     locations :"Location(s):Mumbai ",
     id:"job11",
      },
-    {
     
-    companyName:"Accenture",
-    jobTitle:"HTML (Hypertext Markup Language) Application Developer" ,
-    experience: "experience:4 - 6 years",
-    locations :"Location(s):India,Pune",
-    id:"job12",
-     },
 ]
 
+                              // Job Div Appended Function
 let DisplayJobs=()=>{data.forEach(el => {
-    
-
-
-
+    let b="";
   let div=document.createElement("div");
   div.className="homeJobs";
   let companyName =document.createElement("h3");
-  companyName.innerText=el.companyName .slice(0, 25)+"...";
+  if(el.companyName.length>25) b="..."
+     
+
+  companyName.innerText=el.companyName .slice(0, 25)+b;
   let jobTitle=document.createElement("span");
-  jobTitle.innerText=el.jobTitle.slice(0, 25)+"...";
+  b="";
+  if(el.jobTitle.length>30) b="....."
+  jobTitle.innerText=el.jobTitle.slice(0, 30)+b;
   let experience=document.createElement("div");
+  
   experience.innerText=el.experience;
   let location=document.createElement("div");
-  location.innerText=el.locations.slice(0, 40);
+  b="";
+  if(el.locations.length>45) b="....."
+  location.innerText=el.locations.slice(0, 45)+b;
   div.append(companyName,jobTitle,experience,location)
   container.append(div)
   });
@@ -122,10 +127,13 @@ let DisplayJobs=()=>{data.forEach(el => {
   let homeWorkFrom =document.getElementsByClassName("homeWorkFrom")
   let container=homeWorkFrom[0];
   let data=jobdata;
-  DisplayJobs();
+  DisplayJobs();                  //call for home jobs
   container=homeWorkFrom[1]
  data=jobdata.reverse();
- DisplayJobs();
+ DisplayJobs();                   //  call For Resent Jobs
+
+
+  // Premium data collection
  let PremiumData=[
               {
                 image:"https://media.monsterindia.com/trex/prod-cdn/media/product/2021/august/Xra3gEbEDCZChclt6KyeY08aT14mQIemY87tp56k.png",
@@ -166,6 +174,9 @@ let DisplayJobs=()=>{data.forEach(el => {
  ];
 
 // console.log(premiumData)
+
+                // primium data append function
+
 let DisplayPremium=()=>{
   premiumData.forEach(el=>{
   let div=document.createElement("div")
@@ -194,37 +205,42 @@ let premiumData=PremiumData
 let homePremiumServices =document.getElementById("homePremiumServices")
 DisplayPremium();
 
+
+                  // Find job by skill Append function
+
 let appendLiIn = (event) => {
   
   // let i="Skills"
    i = event.target.innerText;
   console.log(i);
- 
   // console.log(findJobData[i])
   appendLiInDiv.innerHTML=null;
-      relodAppend(i)
-      
-      
-     let erase= document.querySelectorAll("#homeFindJobUl>li");
+      relodAppend(i)  // call for append
+
+   
      erase.forEach((el)=>{
-        el.style.backgroundColor="";
+        el.style.backgroundColor="";      // removing backgroundColor of select button
         el.style.color="black"
      })
     
-      event.target.style.backgroundColor="#5d4da8";
-  event.target.style.color="white"
+  event.target.style.backgroundColor="#5d4da8";
+  event.target.style.color="white"        /// changing  backgroundColor of selecting button
   
 };
+
+    // li element constructer function
 var creatliItems = (text) => {
     let li = document.createElement("li");
     li.innerText = text;
     return li;
   };
+
+                          // function for appending all li values
 let relodAppend =(key)=>{
       findJobData[key].forEach((element) => {
       
      appendLiInDiv.append(creatliItems(element));
-    // (console.log(creatliItems(element)))
+   // (console.log(creatliItems(element)))
   });
  
 }
@@ -263,9 +279,46 @@ let findJobData=
 };
 
           
-                                                                                
-
+let erase= document.querySelectorAll("#homeFindJobUl>li");   
+erase[0].style.backgroundColor="#5d4da8";
+erase[0].style.color="white"                                                              
+    // button press call event for ppending data
  let findJob = document.querySelector("#homeFindJobUl");
 findJob.addEventListener("click", appendLiIn, false);
 let appendLiInDiv = document.querySelector("#homeAppendLiInDiv");
 relodAppend("Skills")
+
+
+
+// side div addslider
+let addImg=["./Images/add2-1.png","./Images/add1-1.jpg","./Images/add1-2.gif"]
+let Display=(appendDiv,Img)=>{
+ 
+  Img.forEach(el=>{
+    
+    let img=document.createElement("img");
+    img.src=el;
+   // console.log(img)
+    appendDiv.append(img)
+  });
+}
+let addAppend=document.getElementById("sideAdd2");
+
+Display(addAppend, addImg)
+
+// banner append.....
+let Banners=["./Images/Banner2.png","./Images/Banner3.png","./Images/Banner4.png"]  
+
+let HomeBanner=document.getElementById("HomeBanner");
+
+Display(HomeBanner,Banners)
+
+//logo append
+// let logos=["./Images/logo1.jpeg","./Images/logo2.jpeg","./Images/logo3.jpeg","./Images/logo4.jpeg","./Images/logo5.jpeg","./Images/logo6.jpeg",
+//                  "./Images/logo7.jpeg","./Images/logo8.jpeg"] ;
+
+//    let HomeSlider=document.getElementById("HomeSlider");
+
+// Display(HomeSlider,logos)
+
+
