@@ -7,21 +7,21 @@ function navbar(){
                     <ul>
                         <li><a href="">JOBS BY LOCATION </a>
                         
-                            <ul class="submenu">
-                                <div>
-                                <li><a href="">JOB IN BANGALORE</a></li>
-                                <li><a href="">JOB IN CHENNAI</a></li>
-                                <li><a href="">JOB IN COIMBATORE</a></li>
-                                <li><a href="">JOB IN DELHI</a></li>
-                                <li><a href="">JOB IN GURGAON</a></li>
-                                <li><a href="">JOB IN HYDERABAD</a></li>
-                                <li><a href="">JOB IN KOLKATA</a></li>
-                                <li><a href="">JOB IN LUCKNOW</a></li>
-                                <li><a href="">JOB IN MUMBAI</a></li>
-                                <li><a href="">JOB IN PUNE</a></li>
-                                <li><a href="">VIEW ALL JOBS BY LOCATION</a></li>
-                                </div>
-                            </ul>
+                        <ul class="submenu">
+                        <div>
+                        <li><a href="../all/job.html">JOB IN BANGALORE</a></li>
+                        <li><a href="../all/job.html">JOB IN CHENNAI</a></li>
+                        <li><a href="../all/job.html">JOB IN COIMBATORE</a></li>
+                        <li><a href="../all/job.html">JOB IN DELHI</a></li>
+                        <li><a href="../all/job.html">JOB IN GURGAON</a></li>
+                        <li><a href="../all/job.html">JOB IN HYDERABAD</a></li>
+                        <li><a href="../all/job.html">JOB IN KOLKATA</a></li>
+                        <li><a href="../all/job.html">JOB IN LUCKNOW</a></li>
+                        <li><a href="../all/job.html">JOB IN MUMBAI</a></li>
+                        <li><a href="../all/job.html">JOB IN PUNE</a></li>
+                        <li><a href="../all/job.html">VIEW ALL JOBS BY LOCATION</a></li>
+                        </div>
+                    </ul>
                             
                         </li>
                         <li><a href="">JOBS BY SKILLS</a>
