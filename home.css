@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@surajwithps 
-subhajit51193
-/
-unknown-current-6376
-Private
-Code
-Issues
-18
-Pull requests
-2
-Actions
-Projects
-2
-Security
-Insights
-unknown-current-6376/Home.css
-@surajwithps
-surajwithps Merge branch 'main' into fw19_1164_day4
-Latest commit ef657d0 2 days ago
- History
- 2 contributors
-@surajwithps@MadhukarKakade
-307 lines (242 sloc)  4.67 KB
-
-
 * {
    margin: 0;
    padding: 0;
@@ -336,18 +304,5 @@ margin-top:10px
 }
 .homeJobs>div+div{
   font-size: 12px;
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-You have no unread notifications
+
+}
