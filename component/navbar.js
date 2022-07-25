@@ -3,7 +3,7 @@ function navbar(){
                 <a href="home.html"> <img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" width="135" height="35" alt="monster header logo"/></a>
                 <li>
                     
-                    <a href="">JOB SEARCH</a>
+                    <a href="./all/jobs.html">JOB SEARCH</a>
                     <ul>
                         <li><a href="">JOBS BY LOCATION </a>
                         
