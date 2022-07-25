@@ -40,7 +40,7 @@ function navbar2(){
 <!-- 2nd navbar 2nd div -->
 <div id="icon_img">
 
-   <a href="index.html"> <img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt=""></a>
+   <a href="home.html"> <img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt=""></a>
 </div>
 
 <!-- 2nd navbar 3rd div -->
@@ -83,7 +83,7 @@ function navbar2(){
 
     <div id="login_button">
         <button>
-            <a href="">Login</a> </button>
+            <a href="login.html">Login</a> </button>
     </div>
 
 
