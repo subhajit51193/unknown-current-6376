@@ -1,6 +1,6 @@
 function navbar(){
       return`    <ul class="ulparent">
-                <a href="index.html"> <img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" width="135" height="35" alt="monster header logo"/></a>
+                <a href="home.html"> <img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" width="135" height="35" alt="monster header logo"/></a>
                 <li>
                     
                     <a href="">JOB SEARCH</a>
@@ -180,7 +180,7 @@ function navbar(){
                     </ul>
                 </li>
 
-                <li><a href="" >PREMIUM SERVICES</a>
+                <li><a href="PremiumServices.html" >PREMIUM SERVICES</a>
                     <ul class="submenu">
                         <div>
                         <li><a href="FeaturedProfile.html">FEATURED PROFILE</a></li>
