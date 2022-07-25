@@ -180,7 +180,7 @@ function navbar(){
                     </ul>
                 </li>
 
-                <li><a href="" >PREMIUM SERVICES</a>
+                <li><a href="./FeaturedProfile.html" >PREMIUM SERVICES</a>
                     <ul class="submenu">
                         <div>
                         <li><a href="FeaturedProfile.html">FEATURED PROFILE</a></li>
